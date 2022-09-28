@@ -37,7 +37,7 @@ def favorite_activities():
     # Each time through this new loop, use the index number to index into each of your lists for the data
     # you need to print out.
     for i in range(len(days)):
-        print(f'On {days[i]}, your favorite activity is {favorite_activities[i]}.')
+        print(f'On {days[i]}s, your favorite activity is to cry{favorite_activities[i]}.')
 # favorite_activities()
 
 
@@ -66,8 +66,8 @@ def temp_by_day():
         temp_by_day = int(input(f'On {days[i]}, what is the temparature ? '))
         if temp_by_day < 50:
             print('Brr, put on a jacket!')
-        elif 50 < temp_by_day <= 65: 
-            print('Cozy, grab a sweater!')
+        elif 50 <= temp_by_day <= 65: 
+            print('Cozy, grab a sweater.')
         elif temp_by_day > 65:
             print('Put on some sunscreen!')    
 # temp_by_day()        
