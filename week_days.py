@@ -67,7 +67,7 @@ def temp_by_day():
         if temp_by_day < 50:
             print('Brr, put on a jacket!')
         elif temp_by_day >= 50 and temp_by_day <= 65: 
-            print('Cozy, grab a sweater.')
+            print('Cozy, grab a sweater')
         elif temp_by_day > 65:
             print('Put on some sunscreen!')
             
@@ -79,7 +79,7 @@ def temp_by_day_continuous():
     # Spring has sprung!
     temp_by_day_continuous = int(input('What is the temparature outside? '))
     while (int(temp_by_day_continuous) <= 65):
-        print('Wear a sweater!')
+        print('Wear a sweater')
         temp_by_day_continuous = int(input('What is the temparature outside? '))
     print('Spring has sprung!')    
     # NOTE: remember, if you accidentally create an infinite while loop, it's ok! Go into the command line and
